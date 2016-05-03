@@ -1,0 +1,39 @@
+<template>
+  <require from="./date-format"></require>
+  <require from="./filter"></require>
+  <div class="container">
+    <h1>${heading}</h1>
+    <hr/>
+    <div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="container">
+            <div class="row">
+                <input type="text" class="form-control col-md-2 search-box" value.bind="searchTerm" placeholder="search..." />
+                <button class="btn btn-default col-md-2 clear-btn" if.bind="searchTerm.length > 0" click.delegate="clearFilter()"><i class="fa fa-times"></i> clear</button>
+            </div> 
+        </div>
+    </div>
+
+     <table class="table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Text</th>
+          <th>Created At</th>
+          <th>Complete?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr repeat.for="todoItem of todoItems | filter:searchTerm:filterFunc">
+          <td>${todoItem.id}</td>
+          <td><span class="${todoItem.is_complete ? 'completed-task' : 'incomplete-task'}"> ${todoItem.text} </span></td>
+          <td>${todoItem.created_at | dateFormat}</td>
+          <td><input type="checkbox" checked.bind="todoItem.is_complete"></input></td>
+        
+        </tr>
+      </tbody>
+    </table>
+
+    </div>
+  </div>
+</template>

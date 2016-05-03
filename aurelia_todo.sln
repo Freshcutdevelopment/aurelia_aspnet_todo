@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{00FCEC4F-486E-4C2F-BA12-89DC2920DC83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{861BFF50-11A7-40A7-BDBA-29320F22E5E6}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "aurelia_todo", "src\aurelia_todo\aurelia_todo.xproj", "{DADF01AC-3D9E-4DDA-AE90-687C194ED468}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DADF01AC-3D9E-4DDA-AE90-687C194ED468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DADF01AC-3D9E-4DDA-AE90-687C194ED468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DADF01AC-3D9E-4DDA-AE90-687C194ED468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DADF01AC-3D9E-4DDA-AE90-687C194ED468}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DADF01AC-3D9E-4DDA-AE90-687C194ED468} = {00FCEC4F-486E-4C2F-BA12-89DC2920DC83}
+	EndGlobalSection
+EndGlobal

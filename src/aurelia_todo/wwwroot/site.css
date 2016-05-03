@@ -1,0 +1,17 @@
+.panel-body {
+    padding: 0px;
+}
+
+.search-box{
+    width:300px;
+}
+
+.clear-btn{
+    margin-left: 5px;
+}
+
+.completed-task{
+    text-decoration: line-through;
+    font-style: italic;
+    color: #929292;
+}
