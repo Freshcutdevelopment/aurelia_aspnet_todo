@@ -5,20 +5,13 @@ import {TodoApi} from './todoapi';
 @inject(TodoApi)
 export class  App{
 
-  @bindable todoItems = [];
-  @bindable searchTerm = "";
-  @bindable heading = "my heading";
-  
-  @bindable headingFirstPart = "my";
-  @bindable headingSecondPart = "heading";
-  
-  constructor(todoApi){
-    this.status = "ready";
-    this.todoApi = todoApi;
-  }
-  
-  get myHeading(){
-      return this.headingFirstPart + this.headingSecondPart;
+	constructor(todoApi){
+		this.todoItems = [];
+		this.searchTerm = "";
+		this.heading = "Crafty Coders - Todo";
+ 
+		this.status = "ready";
+		this.todoApi = todoApi;
   }
 
   bind(){

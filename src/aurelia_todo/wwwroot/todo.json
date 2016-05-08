@@ -2,51 +2,50 @@
   "items":[
     {
       "id" : 1,
-      "text": "Learn about Polymer",
+      "text": "What is Aurelia?",
       "created_at": "Mon Apr 26 06:01:55 +0000 2015",
       "Tags": [
-        "Web Development",
-        "Web Components"
+        "What",
+        "Aurelia"
       ],
       "is_complete" : true
     },
     {
       "id" : 2,
-      "text" : "Watch Pluralsight course on Docker",
+      "text" : "Why Aurelia?",
       "created_at" : "Tue Mar 02 07:01:55 +0000 2015",
       "Tags": [
-        "Devops",
-        "Docker"
+        "Why",
+        "Aureia"
       ],
       "is_complete" : true
     },
     {
       "id" : 3,
-      "text" : "Complete presentation prep for Aurelia presentation",
+      "text" : "Demo with .NET",
       "created_at" : "Wed Mar 05 10:01:55 +0000 2015",
       "Tags": [
-        "Presentation",
+        "Demo",
         "Aureia"
       ],
       "is_complete" : false
     },
     {
       "id" : 4,
-      "text": "Instrument creation of development environment with Puppet",
+      "text": "Questions",
       "created_at" : "Fri June 30 13:00:00 +0000 2015",
       "Tags": [
-        "Devops",
-        "Puppet"
+        "Questions",
+        "Aurelia"
       ],
       "is_complete" : false
     },
     {
       "id" : 5,
-      "text": "Transition code base to ES6",
+      "text": "Wrapping up",
       "created_at" : "Mon Aug 01 10:00:00 +0000 2015",
       "Tags": [
-        "ES6",
-        "Web Development"
+        "Aurelia"
       ],
       "is_complete" : false
     }
